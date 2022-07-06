@@ -39,10 +39,21 @@ button{
 #donate h1{
     font-size: 50px;
 }
-#donate p{
-    color: rgba(0, 0, 0, 0.623);
+::placeholder{
+    color: #B3B3B3;
+}
+#donate input{
     width: 50%;
-    margin-left: 25% ;
+    border: 0;
+    padding: 1%;
+    border-bottom: 2px solid #b3b3b3bb ;
+    text-align: center;
+    margin: 3%;
+    font-size: 20px;
+}
+#donate p{
+    width: 50%;
+    margin-left: 25%;
 }
 #money{
     font-size: 40px;
@@ -54,15 +65,17 @@ button{
 }
 .amount{
     width: 20%;
-    padding-top: 2%;
+    margin: 2% 2% 2% 0;
+    background-color: #FAFAFA;
+    border-radius: 15px;
 }
 #special-amount{
     width: 20%;
-    padding: 2% 0;
+    margin: 2% 0;
     background-color: #FFEEEE;
     border: 3px solid #FF5959;
     border-radius: 15px;
-    text-align: center;
+    padding-right: 2%;
 }
 .amount p{
     color: #707070;
@@ -110,8 +123,8 @@ button{
 }
 #extra-half img{
     width: 80%;
-    border-radius: 25%;
-    border: 1px dashed rgba(0, 0, 0, 0.493);
+    border-radius: 5%;
+    border: 3px double rgba(0, 0, 0, 0.493);
 }
 #subscription{
     text-align: center;
@@ -143,7 +156,7 @@ button{
     border-bottom-right-radius: 8px;
     font-size: 20px;
 }
-input{
+#frm input{
     background-color: #D9D9D9;
     border: 0;
     padding-left: 10%;
