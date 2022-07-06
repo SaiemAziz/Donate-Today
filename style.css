@@ -59,23 +59,21 @@ button{
     font-size: 40px;
     font-weight: bolder;
     display: flex;
-    width: 60%;
-    margin-left: 20%;
+    justify-content: space-between;
+    width: 72%;
+    margin-left: 14%;
     margin-top: 2%;
 }
 .amount{
-    width: 20%;
-    margin: 2% 2% 2% 0;
+    width: 250px;
     background-color: #FAFAFA;
     border-radius: 15px;
 }
 #special-amount{
-    width: 20%;
-    margin: 2% 0;
+    width: 250px;
     background-color: #FFEEEE;
     border: 3px solid #FF5959;
     border-radius: 15px;
-    padding-right: 2%;
 }
 .amount p{
     color: #707070;
